@@ -12,7 +12,7 @@ This repository provides source code and data for building a docker container to
 - Obtain dependency libraries from https://github.com/zzzace2000/FIDO-saliency/ and https://github.com/zzzace2000/generative_inpainting. Please review the license terms of the respective libraries before downloading. 
 - Download pretrained SOBERT-VQA ([link](https://www.dropbox.com/s/satczbns26q5nfa/sobert_vqa_models.zip?dl=0)) and ErrorCam (([link](https://www.dropbox.com/s/n06utaqo5ftusbn/errorcam_checkpoints.zip?dl=0))) checkpoints. The 
 
-We have prepared script `./script_dep_data.sh` for downloading the data files and obtaining the dependency libraries.
+We have prepared script `./script_dep_data.sh` for downloading the checkpoints and obtaining the dependency libraries.
 
 ### Building docker
 
