@@ -1,6 +1,6 @@
 # Explainable VQA with SOBERT 
 
-This repository provides source code and data for building a docker container to demo several capabilities of SRI's SOBERT Explainable VQA model. 
+This repository provides source code and data for building a docker container to demo several capabilities of the Spatial-Object Attention BERT (SOBERT) Visual Question Answering (VQA) model with BERT and ErrorCam attention maps. 
 
 ## How to use
 
@@ -9,7 +9,10 @@ This repository provides source code and data for building a docker container to
 - Docker with GPU capabilities is required to build and run the docker image. 
 - The compiled docker will take about 20GB of disk space. 
 - GPU with >20GB of GRAM is required to run this demo.
-- Obtain dependency libraries from https://github.com/zzzace2000/FIDO-saliency/ and https://github.com/zzzace2000/generative_inpainting. Please review the license terms of the respective libraries before downloading. We have prepared script `./script_dep_data.sh` to obtain those dependency libraries.
+- Obtain dependency libraries from https://github.com/zzzace2000/FIDO-saliency/ and https://github.com/zzzace2000/generative_inpainting. Please review the license terms of the respective libraries before downloading. 
+- Download pretrained SOBERT-VQA ([link](https://www.dropbox.com/s/satczbns26q5nfa/sobert_vqa_models.zip?dl=0)) and ErrorCam (([link](https://www.dropbox.com/s/n06utaqo5ftusbn/errorcam_checkpoints.zip?dl=0))) checkpoints. The 
+
+We have prepared script `./script_dep_data.sh` for downloading the data files and obtaining the dependency libraries.
 
 ### Building docker
 
