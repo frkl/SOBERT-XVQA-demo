@@ -135,7 +135,7 @@ docker system prune
 
 If you use the SOBERT-VQA attention maps as part of published research, please cite the following paper
 
-'''
+```
 @INPROCEEDINGS{Alipour_2020,
   author={Alipour, Kamran and Ray, Arijit and Lin, Xiao and Schulze, Jurgen P. and Yao, Yi and Burachas, Giedrius T.},
   booktitle={2020 IEEE International Conference on Humanized Computing and Communication with Artificial Intelligence (HCCAI)}, 
@@ -145,11 +145,11 @@ If you use the SOBERT-VQA attention maps as part of published research, please c
   number={},
   pages={25-32},
   doi={10.1109/HCCAI49649.2020.00010}}
-'''
+```
 
 If you use the SOBERT-VQA model as part of published research, please acknowledge the following repo
 
-'''
+```
 @misc{SOBERT-XVQA,
 author = {Xiao Lin, Sangwoo Cho, Kamran Alipour, Arijit Ray, Jurgen P. Schulze, Yi Yao and Giedrius Buracas},
 title = {SOBERT-XVQA: Spatial-Object Attention BERT Visual Question Answering model},
@@ -158,7 +158,7 @@ publisher = {GitHub},
 journal = {GitHub repository},
 howpublished = {\url{https://github.com/frkl/SOBERT-XVQA-demo}},
 }
-'''
+```
 
 The following codebases are used in this repository.
 
