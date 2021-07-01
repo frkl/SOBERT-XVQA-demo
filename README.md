@@ -133,8 +133,35 @@ docker system prune
 
 ## References
 
-The following code bases are used in this repository.
+If you use the SOBERT-VQA attention maps as part of published research, please cite the following paper
 
-- Bottom-up VQA <https://github.com/peteanderson80/bottom-up-attention> under MIT License
-- PyTorch transformers <https://github.com/huggingface/transformers> under Apache License 2.0
-- PyTorch gradcam <https://github.com/jacobgil/pytorch-grad-cam> under MIT License
+'''
+@INPROCEEDINGS{Alipour_2020,
+  author={Alipour, Kamran and Ray, Arijit and Lin, Xiao and Schulze, Jurgen P. and Yao, Yi and Burachas, Giedrius T.},
+  booktitle={2020 IEEE International Conference on Humanized Computing and Communication with Artificial Intelligence (HCCAI)}, 
+  title={The Impact of Explanations on AI Competency Prediction in VQA}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={25-32},
+  doi={10.1109/HCCAI49649.2020.00010}}
+'''
+
+If you use the SOBERT-VQA model as part of published research, please acknowledge the following repo
+
+'''
+@misc{SOBERT-XVQA,
+author = {Xiao Lin, Sangwoo Cho, Kamran Alipour, Arijit Ray, Jurgen P. Schulze, Yi Yao and Giedrius Buracas},
+title = {SOBERT-XVQA: Spatial-Object Attention BERT Visual Question Answering model},
+year = {2021},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/frkl/SOBERT-XVQA-demo}},
+}
+'''
+
+The following codebases are used in this repository.
+
+- Bottom-up VQA <https://github.com/peteanderson80/bottom-up-attention> under MIT License. Modified to compile in docker.
+- PyTorch transformers <https://github.com/huggingface/transformers> under Apache License 2.0. Modified BERT-base to support image inputs.
+- PyTorch gradcam <https://github.com/jacobgil/pytorch-grad-cam> under MIT License. Modified to produce errorcam images.
